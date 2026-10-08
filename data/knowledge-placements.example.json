@@ -1,0 +1,77 @@
+{
+  "schema": "atlas-knowledge-placements/0.1",
+  "description": "Illustrative relationship records; not extracted or verified from the user's 62 image assets.",
+  "entities": [
+    {
+      "id": "electron",
+      "kind": "physical_entity",
+      "label": "Electron",
+      "physical_validity": {
+        "status": "model_dependent",
+        "start": null
+      },
+      "discovery_events": [
+        {
+          "date": "1897",
+          "event": "Identification of the electron",
+          "source_status": "reference_required"
+        }
+      ],
+      "interpretations": [
+        {
+          "id": "qed",
+          "kind": "theoretical_framework",
+          "label": "Quantum electrodynamics",
+          "source_status": "reference_required"
+        }
+      ],
+      "placements": [
+        {
+          "view": "scale",
+          "region": "Subatomic"
+        },
+        {
+          "view": "discovery",
+          "region": "Particles and nuclei"
+        },
+        {
+          "view": "interpretation",
+          "region": "Theory"
+        }
+      ]
+    },
+    {
+      "id": "distant-galaxy",
+      "kind": "astronomical_object_example",
+      "label": "Distant galaxy (generic example)",
+      "observations": [],
+      "redshift": null,
+      "coordinate_frame": null,
+      "cosmological_parameters": null,
+      "distances": [],
+      "placements": [
+        {
+          "view": "scale",
+          "region": "Galactic"
+        },
+        {
+          "view": "cosmic",
+          "region": "Early universe",
+          "status": "illustrative_only"
+        },
+        {
+          "view": "observation",
+          "region": "Emission epoch"
+        }
+      ]
+    }
+  ],
+  "requirements": {
+    "source_for_assertions": true,
+    "units_for_quantities": true,
+    "frame_for_positions": true,
+    "cosmology_for_derived_distances": true,
+    "distinguish_existence_discovery_and_acceptance": true,
+    "allow_multiple_placements": true
+  }
+}
