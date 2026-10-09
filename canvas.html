@@ -25,6 +25,7 @@ const nodes=[
 {id:"early",name:"Early universe",kind:"Cosmological model",desc:"Physical epochs and structure formation inferred from observations under specified cosmological models.",scale:15,time:0,discovery:16,group:2}
 ];
 const assets=[
+{id:"asset-quarkonium",name:"Quarkonium",kind:"Atlas asset · Physics",desc:"Existing quarkonium coverage reported by project owner. Source location and current integration need verification.",anchor:"hadrons",status:"Existing asset reported; integration unverified"},
 {id:"asset-nuclides",name:"Nuclides Atlas",kind:"Atlas asset · Data",desc:"Nuclide and exotic-atom catalogue. Repository link identified; current deployment and completeness not audited.",anchor:"nuclides",url:"https://github.com/mardukasoka/Nuclides_atlas_preview",status:"Repository identified"},
 {id:"asset-uranometria",name:"Uranometria",kind:"Atlas asset · Map",desc:"Astronomical visualizations, celestial coordinate systems and surveys. Published view is a reference, not an independently verified live integration.",anchor:"galaxies",url:"https://mardukasoka.github.io/uranometria/web/cosmic-web/",status:"Public URL supplied"},
 {id:"asset-chess",name:"Chess Atlas",kind:"Atlas asset · Game",desc:"Historical and experimental chess engines and playable game variations.",anchor:"humans",url:"https://github.com/mardukasoka/chess-atlas",status:"Repository identified"},
@@ -41,7 +42,7 @@ formal:{status:"identified",note:"Foundational concepts catalogued; formal ontol
 fields:{status:"review",note:"Concept present; interpretation and references require review."},
 quarks:{status:"review",note:"Particle coverage started; supporting evidence links pending."},
 leptons:{status:"review",note:"Particle coverage started; supporting evidence links pending."},
-hadrons:{status:"gap",note:"Quarkonium, exotic hadrons and bound-state catalogues need detailed integration."},
+hadrons:{status:"identified",note:"Existing quarkonium coverage reported by project owner; location, completeness and provenance still require audit."},
 nuclides:{status:"identified",note:"Nuclides repository identified; data coverage and validation not audited."},
 atoms:{status:"review",note:"Atomic visualizations and spectral provenance need validation."},
 matter:{status:"gap",note:"Quasiparticle and phase-transition catalogues are not yet connected."},
