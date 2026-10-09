@@ -17,7 +17,7 @@ An identified repo is not a tested deployment. A live page is not a validated si
 
 | Region | Inventory state | Priority |
 | --- | --- | --- |
-| Quarkonium and exotic bound states | Existing Atlas coverage reported; integration not yet audited | Locate and link existing quarkonium implementation; assess provenance and completeness without rebuilding |
+| Quarkonium and exotic bound states | Existing Atlas coverage reported; integration not yet audited | Source located in chess-atlas/experiments/qcd-matter/data.json and linked on canvas; verify live UI, entry-level citations and completeness |
 | Quasiparticles and phase transitions | Known gap | Separate catalogue and transitions; link to materials |
 | High-redshift surveys to CMB | Known gap | Track observational gaps, redshift and survey provenance |
 | Earth systems | Known gap | Audit existing Earth-science assets before importing |
