@@ -43,3 +43,5 @@ Represent bond *order*, *electron occupancy*, *orbital symmetry*, *nuclear quant
 
 ## Interactive implementation
 - [Bonding & Quantum Bound States Explorer](./bonding.html) — filterable taxonomy with evidence labels, sources, JSON export and links to radiation/QCD. Committed as conceptual classification, not orbital calculation.
+
+- [Water & Ice Phase Explorer](./water-ice.html) — interactive schematic with equilibrium and metastable/ordering layers, ice III–IX relationship, source links and JSON export. **Not a quantitatively accurate pressure–temperature phase diagram.** Next step: obtain validated IAPWS / primary phase-boundary tables and resolve exact ice-polymorph boundaries before numerical cursor readouts.
