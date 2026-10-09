@@ -40,3 +40,6 @@ Locate canonical deployed Nuclides and Exotic Atoms object identifiers before wr
 - **Bethe strings** — quantum many-body bound states, not conventional chemical bonds. 2026 ultracold cesium experimental claim requires primary-paper verification before establishing exact experimental status. Cross-link Quantum Matter, integrable one-dimensional systems, spin correlations.
 ### Data-model implications
 Represent bond *order*, *electron occupancy*, *orbital symmetry*, *nuclear quantum dynamics*, *measurement method*, *theory/experiment status* separately. Bound-state classification is not equivalent to chemical-bond classification.
+
+## Interactive implementation
+- [Bonding & Quantum Bound States Explorer](./bonding.html) — filterable taxonomy with evidence labels, sources, JSON export and links to radiation/QCD. Committed as conceptual classification, not orbital calculation.
