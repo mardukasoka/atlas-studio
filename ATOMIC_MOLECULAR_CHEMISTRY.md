@@ -32,3 +32,11 @@ Locate canonical deployed Nuclides and Exotic Atoms object identifiers before wr
 - Preserve source-specific species naming, isomer identity and observational confidence. Crosswalk to canonical chemical identifiers only after checking exact structural and charge identity. Do not treat all 353 as independently confirmed.
 - Proposed interfaces: species ↔ atomic constituents / ions ↔ bond graph ↔ rotational-vibrational spectroscopy ↔ observed cloud / telescope ↔ original detection paper.
 - Data import requires source permission/licensing review; until then link to original source rather than mirroring the downloadable spreadsheet.
+
+## Unconventional bonding and quantum bound-state watch (2026-10-09)
+- **Carbon–carbon one-electron sigma bond** — experimentally established in oxidized hexaphenylethane derivative; X-ray diffraction, Raman and DFT; C–C distance 2.921(3) Å at 100 K. Shimajiri et al., Nature 634, 347–351 (2024), DOI: https://doi.org/10.1038/s41586-024-07965-1 . Link to carbon atom, molecular cation, oxidation, sigma orbitals, spectroscopy and bonds.
+- **Vibrational bond, Br–Mu–Br** — high-level quantum-chemical support; definitive assignment of muon-spin experimental signal is unresolved versus van der Waals complex. Fleming et al. (2012), DOI: https://doi.org/10.1039/C2CP41366C ; theoretical study https://doi.org/10.1002/anie.201408211 . Link to muonium, exotic atoms, zero-point energy and isotope effects. Do not label unequivocally experimentally confirmed.
+- **Actinide phi bonding** — track orbital symmetry, oxidation-state dependence, primary structure and spectroscopy; independent primary-paper audit required. Institutional overview: https://www.lanl.gov/media/newsletters/ste-highlights/actinide-bonding .
+- **Bethe strings** — quantum many-body bound states, not conventional chemical bonds. 2026 ultracold cesium experimental claim requires primary-paper verification before establishing exact experimental status. Cross-link Quantum Matter, integrable one-dimensional systems, spin correlations.
+### Data-model implications
+Represent bond *order*, *electron occupancy*, *orbital symmetry*, *nuclear quantum dynamics*, *measurement method*, *theory/experiment status* separately. Bound-state classification is not equivalent to chemical-bond classification.
