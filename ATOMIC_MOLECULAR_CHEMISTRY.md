@@ -26,3 +26,9 @@ These Quanta articles are secondary reporting. Follow the underlying observatory
 
 ## Integration gates
 Locate canonical deployed Nuclides and Exotic Atoms object identifiers before writing outbound links. Confirm physical units, stable species identifiers and mobile performance. No duplicate nuclear records. Phase diagram should use an explicit equation of state or tabulated boundaries, not interpolated artwork presented as measurement.
+
+## Interstellar molecule catalogue (observational registry)
+- https://molecules-in.space/ — Mitsunori Araki, List of Observed Interstellar Molecules. Site update 2026-08-03 reports 353 species, with tentative detections included; use per-entry detection status, first detection paper, cloud, telescope, column density and detection year.
+- Preserve source-specific species naming, isomer identity and observational confidence. Crosswalk to canonical chemical identifiers only after checking exact structural and charge identity. Do not treat all 353 as independently confirmed.
+- Proposed interfaces: species ↔ atomic constituents / ions ↔ bond graph ↔ rotational-vibrational spectroscopy ↔ observed cloud / telescope ↔ original detection paper.
+- Data import requires source permission/licensing review; until then link to original source rather than mirroring the downloadable spreadsheet.
